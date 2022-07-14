@@ -1,0 +1,220 @@
+/* effect navbar JS */
+.navback {
+  background-color: white;
+  color: #222;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* effect in the navbar scroll fixed */
+header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+header .navbar .logo {
+  margin: 10px 40px;
+}
+
+header .navbar .box-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .navbar .box-navbar li {
+  list-style: none;
+  margin: 10px 30px;
+}
+
+header .navbar .box-navbar li a {
+  text-decoration: none;
+  color: #222;
+  padding: 10px 15px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+header .navbar .box-navbar li a:hover {
+  background-color: #e1dada;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+header .navbar .box-navbar li .user-init {
+  background-color: #12A7D7;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: white;
+}
+
+header .navbar .box-navbar li .user-init:hover {
+  background-color: #2db8d3;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
+/* box home */
+.home-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  /* home imagen */
+}
+
+.home-box .home-box-menu {
+  /* titule home */
+  /* inputs search - home */
+}
+
+.home-box .home-box-menu .home-box-menu-titule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: initial;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.home-box .home-box-menu .home-box-menu-titule h1 {
+  font-size: 50px;
+}
+
+.home-box .home-box-menu .home-box-menu-titule h1 span {
+  color: #12A7D7;
+}
+
+.home-box .home-box-menu .home-box-menu-titule h2 {
+  font-size: 50px;
+}
+
+.home-box .home-box-menu .home-box-menu-titule h2 span {
+  color: #12A7D7;
+}
+
+.home-box .home-box-menu .home-box-menu-titule p {
+  color: #8A8A8A;
+}
+
+.home-box .home-box-menu .search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin: 50px 0px 0px 150px;
+  width: 50%;
+  padding: 10px 45px;
+  border-radius: 20px;
+}
+
+.home-box .home-box-menu .search-box .icon i {
+  font-size: 20px;
+  color: #0F335E;
+}
+
+.home-box .home-box-menu .search-box .search {
+  border: none;
+  background-color: white;
+  padding: 5px;
+  color: #0F335E;
+}
+
+.home-box .home-box-menu .search-box .btn-search {
+  background-color: #12A7D7;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.home-box .home-box-menu .search-box .btn-search:hover {
+  background-color: #2db8d3;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.home-box .home-img {
+  padding: 50px;
+  margin-right: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #cccaca;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+  -webkit-transition: .3 ease all;
+  transition: .3 ease all;
+  background: url(../img/ilustraciones/Fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e9e7e3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0b80bf;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */

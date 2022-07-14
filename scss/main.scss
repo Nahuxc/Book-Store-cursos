@@ -1,0 +1,36 @@
+@import "navbar";
+@import "home";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #cccaca;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: .3 ease all;
+    background: url(../img/ilustraciones/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(233, 231, 227);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0b80bf;
+    padding: 10px;
+}
