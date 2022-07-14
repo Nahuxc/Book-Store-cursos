@@ -85,7 +85,7 @@ header .navbar .box-navbar li .user-init:hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
   /* home imagen */
 }
 
@@ -140,10 +140,10 @@ header .navbar .box-navbar li .user-init:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
-  margin: 50px 0px 0px 150px;
-  width: 50%;
-  padding: 10px 45px;
+  background-color: #ffffff;
+  margin: 50px 0px 0px 250px;
+  width: 40%;
+  padding: 10px 60px;
   border-radius: 20px;
 }
 
@@ -154,7 +154,7 @@ header .navbar .box-navbar li .user-init:hover {
 
 .home-box .home-box-menu .search-box .search {
   border: none;
-  background-color: white;
+  background-color: #ffffff;
   padding: 5px;
   color: #0F335E;
 }
