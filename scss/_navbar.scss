@@ -24,7 +24,7 @@ header{
             justify-content: center;
             li{
                 list-style: none;
-                margin: 10px 30px;
+                margin: 10px 10px;
                 a{
                     text-decoration: none;
                     color: #222;
@@ -55,6 +55,22 @@ header{
                         border-radius: 30px;
                         padding: 10px 40px;
                     }
+                }
+            }
+            .btn-dark{
+                padding: 10px;
+                border: none;
+                background-color: rgb(231, 228, 228);
+                border-radius: 20px;
+                margin-right: 20px;
+                transition: all 500ms;
+                cursor: pointer;
+                &:hover{
+                    background-color: #12A7D7;
+                    color: white;
+                }
+                i{
+                    font-size: 20px;
                 }
             }
         }

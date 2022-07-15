@@ -42,7 +42,7 @@ header .navbar .box-navbar {
 
 header .navbar .box-navbar li {
   list-style: none;
-  margin: 10px 30px;
+  margin: 10px 10px;
 }
 
 header .navbar .box-navbar li a {
@@ -82,6 +82,26 @@ header .navbar .box-navbar li .user-init:hover {
   background-color: #50c0d6;
   border-radius: 30px;
   padding: 10px 40px;
+}
+
+header .navbar .box-navbar .btn-dark {
+  padding: 10px;
+  border: none;
+  background-color: #e7e4e4;
+  border-radius: 20px;
+  margin-right: 20px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+header .navbar .box-navbar .btn-dark:hover {
+  background-color: #12A7D7;
+  color: white;
+}
+
+header .navbar .box-navbar .btn-dark i {
+  font-size: 20px;
 }
 
 /* box home */

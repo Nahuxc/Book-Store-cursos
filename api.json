@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "category": "UI/UX Design",
+        "name": "UI/UX Design for Beginners",
+        "price": 1800,
+        "hours":"18hr 25min",
+        "video":"18 Courses",
+        "img": "./img/person-course/personCourse1.png"
+    },
+    {
+        "id":2,
+        "category": "UI/UX Design",
+        "name": "UI/UX Design for Beginners",
+        "price": 2200,
+        "hours":"22hr 30min",
+        "video":"25 Courses",
+        "img": "./img/person-course/personCourse1.png"
+    },
+    {
+        "id":3,
+        "category": "UI/UX Design",
+        "name": "UI/UX Design for Beginners",
+        "price": 1500,
+        "hours":"14hr 30min",
+        "video":"13 Courses",
+        "img": "./img/person-course/personCourse1.png"
+    }
+]
