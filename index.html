@@ -22,15 +22,24 @@
             <div class="logo">
                 <a href="#"><img src="./img/NavBar Img/Logo.png" alt="logo-coursePage"></a>
             </div>
+            <!-- menu navbar -->
             <div class="box-navbar">
-                <button class="btn-dark"><i class="fa-solid fa-moon"></i></button>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Our service</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li><a class="user-init" href="#">Sign in</a></li>
+                <li><a class="box-navbar-interfaz" href="#">Home</a></li>
+                <li><a class="box-navbar-interfaz" href="#">Courses</a></li>
+                <li><a class="box-navbar-interfaz" href="#">About us</a></li>
+                <!-- button submenu -->
+                <button class="btn-menu-box" id="btnmenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- submenu Navbar -->
+                <div class="submenu" id="sidebar">
+                    <!-- button dark mode -->
+                    <li><a class="submenu-interfaz" href="#">Sign in</a></li>
+                    <li><a class="submenu-interfaz" href="#">Our service</a></li>
+                    <li><a class="submenu-interfaz" href="#">Contact us</a></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i> Carrito</li>
+                    <button class="btn-dark"><i class="fa-solid fa-moon"></i></button>
+                </div>
             </div>
         </nav>
     </header>

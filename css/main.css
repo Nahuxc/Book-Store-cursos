@@ -12,6 +12,7 @@ header {
   top: 0;
   position: fixed;
   z-index: 1;
+  /* navbar */
 }
 
 header .navbar {
@@ -25,6 +26,7 @@ header .navbar {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  /* content navbar */
 }
 
 header .navbar .logo {
@@ -38,6 +40,10 @@ header .navbar .box-navbar {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  /* button submenu */
+  /* deploy class button */
+  /* SideBar Menu */
+  /* deploy menu active */
 }
 
 header .navbar .box-navbar li {
@@ -45,7 +51,7 @@ header .navbar .box-navbar li {
   margin: 10px 10px;
 }
 
-header .navbar .box-navbar li a {
+header .navbar .box-navbar li .box-navbar-interfaz {
   text-decoration: none;
   color: #222;
   padding: 10px 15px;
@@ -53,55 +59,111 @@ header .navbar .box-navbar li a {
   transition: all 500ms;
 }
 
-header .navbar .box-navbar li a:hover {
+header .navbar .box-navbar li .box-navbar-interfaz:hover {
   background-color: #e1dada;
   border-radius: 30px;
   padding: 10px 15px;
 }
 
-header .navbar .box-navbar li i {
-  font-size: 25px;
+header .navbar .box-navbar .btn-menu-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  background-color: #299dc0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+header .navbar .box-navbar .btn-menu-box:hover {
+  background-color: #12A7D7;
+}
+
+header .navbar .box-navbar .deploy {
+  margin-right: 250px;
+  cursor: pointer;
+}
+
+header .navbar .box-navbar .submenu {
+  position: fixed;
+  top: 0;
+  right: -240px;
+  height: 100%;
+  width: 240px;
+  z-index: 10;
+  background-color: white;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* button dark mode */
+}
+
+header .navbar .box-navbar .submenu li {
+  background-color: #222;
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  color: white;
   -webkit-transition: all 500ms;
   transition: all 500ms;
   cursor: pointer;
 }
 
-header .navbar .box-navbar li i:hover {
-  color: #12A7D7;
+header .navbar .box-navbar .submenu li:hover {
+  background-color: #12A7D7;
 }
 
-header .navbar .box-navbar li .user-init {
-  background-color: #12A7D7;
-  border-radius: 30px;
+header .navbar .box-navbar .submenu li .submenu-interfaz {
+  text-decoration: none;
   padding: 10px 40px;
   font-size: 20px;
   color: white;
 }
 
-header .navbar .box-navbar li .user-init:hover {
-  background-color: #50c0d6;
-  border-radius: 30px;
-  padding: 10px 40px;
-}
-
-header .navbar .box-navbar .btn-dark {
+header .navbar .box-navbar .submenu .btn-dark {
   padding: 5px 10px;
   border: none;
   background-color: #e7e4e4;
   border-radius: 20px;
   margin-right: 20px;
+  width: 30%;
+  margin: 0 auto;
   -webkit-transition: all 500ms;
   transition: all 500ms;
   cursor: pointer;
 }
 
-header .navbar .box-navbar .btn-dark:hover {
+header .navbar .box-navbar .submenu .btn-dark:hover {
   background-color: #12A7D7;
   color: white;
 }
 
-header .navbar .box-navbar .btn-dark i {
+header .navbar .box-navbar .submenu .btn-dark i {
   font-size: 20px;
+}
+
+header .navbar .box-navbar .active {
+  right: 0;
 }
 
 /* box home */

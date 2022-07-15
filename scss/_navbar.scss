@@ -11,6 +11,7 @@ header{
     top: 0;
     position: fixed;
     z-index: 1;
+    /* navbar */
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -19,13 +20,14 @@ header{
         .logo{
             margin: 10px 40px;
         }
+        /* content navbar */
         .box-navbar{
             display: flex;
             justify-content: center;
             li{
                 list-style: none;
                 margin: 10px 10px;
-                a{
+                .box-navbar-interfaz{
                     text-decoration: none;
                     color: #222;
                     padding: 10px 15px;
@@ -36,44 +38,88 @@ header{
                         padding: 10px 15px;
                     }
                 }
-                i{
-                    font-size: 25px;
-                    transition: all 500ms;
-                    cursor: pointer;
-                    &:hover{
-                        color: #12A7D7;
-                    }
-                }
-                .user-init{
-                    background-color: #12A7D7;
-                    border-radius: 30px;
-                    padding: 10px 40px;
-                    font-size: 20px;
-                    color: white;
-                    &:hover{
-                        background-color: rgb(80, 192, 214);
-                        border-radius: 30px;
-                        padding: 10px 40px;
-                    }
-                }
             }
-            .btn-dark{
-                padding: 5px 10px;
+            /* button submenu */
+            .btn-menu-box {
+                justify-content: center;
+                align-items: center;
                 border: none;
-                background-color: rgb(231, 228, 228);
-                border-radius: 20px;
-                margin-right: 20px;
+                display: flex;
+                transition: all 500ms;
+                background-color: rgb(41, 157, 192);
+                border-radius: 5px;
+                font-size: 15px;
+                color: white;
+                padding: 10px;
+                margin-right: 10px;
                 transition: all 500ms;
                 cursor: pointer;
                 &:hover{
                     background-color: #12A7D7;
-                    color: white;
-                }
-                i{
-                    font-size: 20px;
                 }
             }
+            /* deploy class button */
+            .deploy{
+                margin-right: 250px;
+                cursor: pointer;
+            }
+            /* SideBar Menu */
+            .submenu{
+                position: fixed;
+                top: 0;
+                right: -240px;
+                height: 100%;
+                width: 240px;
+                z-index: 10;
+                background-color: white;
+                transition: all 500ms;
+                padding: 20px 10px;
+                display: flex;
+                flex-direction: column;
+                li{
+                    background-color: #222;
+                    width: 100%;
+                    margin: 10px 0px 20px 0px;
+                    padding: 10px;
+                    color: white;
+                    transition: all 500ms;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #12A7D7;
+                    }
+                    .submenu-interfaz{
+                        text-decoration: none;
+                        padding: 10px 40px;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+                /* button dark mode */
+                .btn-dark{
+                    padding: 5px 10px;
+                    border: none;
+                    background-color: rgb(231, 228, 228);
+                    border-radius: 20px;
+                    margin-right: 20px;
+                    width: 30%;
+                    margin: 0 auto;
+                    transition: all 500ms;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #12A7D7;
+                        color: white;
+                    }
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+            /* deploy menu active */
+            .active{
+                right: 0;
+            }
         }
+        
     }
 }
 
