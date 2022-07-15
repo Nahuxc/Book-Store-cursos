@@ -85,7 +85,7 @@ header .navbar .box-navbar li .user-init:hover {
 }
 
 header .navbar .box-navbar .btn-dark {
-  padding: 10px;
+  padding: 5px 10px;
   border: none;
   background-color: #e7e4e4;
   border-radius: 20px;
@@ -118,6 +118,7 @@ header .navbar .box-navbar .btn-dark i {
           align-items: center;
   text-align: center;
   margin-top: 150px;
+  width: 100%;
   /* home imagen */
 }
 
@@ -212,8 +213,9 @@ header .navbar .box-navbar .btn-dark i {
 }
 
 .home-box .home-img {
-  padding: 50px;
+  padding: 30px 0px;
   margin-right: 80px;
+  width: 100%;
 }
 
 .home-information-course {
