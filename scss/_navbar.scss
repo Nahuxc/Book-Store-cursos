@@ -82,6 +82,7 @@ header{
                     margin: 10px 0px 20px 0px;
                     padding: 10px;
                     color: white;
+                    font-size: 20px;
                     transition: all 500ms;
                     cursor: pointer;
                     &:hover{
@@ -89,7 +90,7 @@ header{
                     }
                     .submenu-interfaz{
                         text-decoration: none;
-                        padding: 10px 40px;
+                        padding: 0px 25px;
                         font-size: 20px;
                         color: white;
                     }
