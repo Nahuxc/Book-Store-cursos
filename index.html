@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <!-- CSS style -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Book Store|Course</title>
+    <title>Book Store | Course</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -20,7 +20,7 @@
         <!-- logo styles -->
         <nav class="navbar">
             <div class="logo">
-                <img src="./img/NavBar Img/Logo.png" alt="logo-coursePage">
+                <a href="#"><img src="./img/NavBar Img/Logo.png" alt="logo-coursePage"></a>
             </div>
             <div class="box-navbar">
                 <li><a href="#">Home</a></li>
@@ -28,6 +28,7 @@
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Our service</a></li>
                 <li><a href="#">Contact us</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
                 <li><a class="user-init" href="#">Sign in</a></li>
             </div>
         </nav>
@@ -50,16 +51,74 @@
                         <input class="btn-search" type="button" value="Continue">
                     </div>
                 </div>
+                <!-- img ilustracion -->
                 <div class="home-img">
                     <img src="./img/ilustraciones/ilustracion2.png" alt="Ilustracion-Book-Store">
                 </div>
-                <!-- about the course -->
-                <div class="home-information-course">
-                    <div>
-
-                    </div>
+            </div>
+        </section>
+        <!-- about the course -->
+        <section class="home-information-course">
+            <!-- box contents information on what can be obtained -->
+            <div class="box-information">
+                <div class="box-img-information">
+                    <img src="./img/info-icons/icon1.png" alt="icon-skills">
+                </div>
+                <div class="box-information-text">
+                    <h2>Learn The Lastest Skills</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
                 </div>
             </div>
+            <!-- box contents information on what can be obtained -->
+            <div class="box-information">
+                <div class="box-img-information">
+                    <img src="./img/info-icons/icon2.png" alt="icon-skills">
+                </div>
+                <div class="box-information-text">
+                    <h2>Get Ready For a Career</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
+                </div>
+            </div>
+            <!-- box contents information on what can be obtained -->
+            <div class="box-information">
+                <div class="box-img-information">
+                    <img src="./img/info-icons/icon3.png" alt="icon-skills">
+                </div>
+                <div class="box-information-text">
+                    <h2>Earn a Certificate</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Courses -->
+        <section class="box-courses">
+                <div class="courses-titule">
+                    <h2>Our Available Courses</h2>
+                    <p class="p-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nisi.</p>
+                </div>
+                <!-- Card Course -->
+                <div class="box-courses-card">
+                    <div class="courses">
+                        <div class="courses-img">
+                            <img src="./img/person-course/personCourse1.png" alt="">
+                        </div>
+                        <div class="course-info">
+                            <p>UI/UX Design</p>
+                            <img src="./img/info-icons/stars.png" alt="">
+                        </div>
+                        <div class="course-titule">
+                            <h2>UI/UX Design for Beginners</h2>
+                            <p>$98</p>
+                        </div>
+                        <div class="course-hours">
+                            <p><i class="fa-solid fa-clock"></i> 22hr 30min</p>
+                            <p><i class="fa-solid fa-video"></i> 34 Courses</p>
+                        </div>
+                        <div class="btn-buy">
+                            <button>Buy Course</button>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
     <footer>

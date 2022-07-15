@@ -45,6 +45,7 @@
                 i{
                     font-size: 20px;
                     color: #0F335E;
+                    margin: 0px 10px 0px 0px;
                 }
             }
             .search{
@@ -62,6 +63,7 @@
                 padding: 10px 20px;
                 cursor: pointer;
                 transition: all 500ms;
+                margin: 0px 0px 0px 20px;
                 &:hover{
                     background-color: rgb(45, 184, 211);
                     border-radius: 30px;
