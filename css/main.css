@@ -544,6 +544,136 @@ body.dark-mode .box-courses .box-courses-card .courses .course-titule h2 {
   cursor: pointer;
 }
 
+.footer {
+  background-color: #FDF8EE;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 20px;
+}
+
+body.dark-mode .footer {
+  background-color: #353535;
+}
+
+.footer .box-footer-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+.footer .box-footer-information p {
+  color: #606060;
+}
+
+body.dark-mode .footer .box-footer-information p {
+  color: #d9d7d4;
+}
+
+.footer .box-footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 150px;
+  margin-top: 32px;
+}
+
+.footer .box-footer-contact h2 {
+  margin-bottom: 20px;
+}
+
+.footer .box-footer-contact span {
+  color: #606060;
+  margin-bottom: 15px;
+}
+
+body.dark-mode .footer .box-footer-contact span {
+  color: #d9d7d4;
+}
+
+.footer .box-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-right: 150px;
+  margin-top: 32px;
+}
+
+.footer .box-footer-redes h2 {
+  margin-bottom: 15px;
+}
+
+.footer .box-footer-redes span {
+  margin-bottom: 10px;
+}
+
+.footer .box-footer-redes span a {
+  text-decoration: none;
+  color: #606060;
+}
+
+body.dark-mode .footer .box-footer-redes span a {
+  color: #d9d7d4;
+}
+
+.autor-copyright {
+  background-color: #FDF8EE;
+  padding: 20px;
+  text-align: center;
+}
+
+body.dark-mode .autor-copyright {
+  background-color: #353535;
+}
+
+.autor-copyright .bar {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #353535;
+  height: 5px;
+}
+
+body.dark-mode .autor-copyright .bar {
+  background-color: #FDF8EE;
+}
+
+.autor-copyright p {
+  font-size: 20px;
+  color: #353535;
+  margin-top: 20px;
+}
+
+body.dark-mode .autor-copyright p {
+  color: #d9d7d4;
+}
+
 * {
   margin: 0;
   padding: 0;

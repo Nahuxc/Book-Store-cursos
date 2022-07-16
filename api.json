@@ -10,8 +10,8 @@
     },
     {
         "id":2,
-        "category": "UI/UX Design",
-        "name": "UI/UX Design for Beginners",
+        "category": "Programacion",
+        "name": "C#",
         "price": 2200,
         "hours":"22hr 30min",
         "video":"25 Courses",
