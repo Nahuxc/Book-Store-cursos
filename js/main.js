@@ -9,8 +9,8 @@ const logo2 = document.getElementById("logo2");
 /* function of the darkMode */
 btndark.addEventListener("click",()=>{
     document.body.classList.toggle("dark-mode");
-    document.body.classList.contains('dark-mode') ? logo.src="./img/navbar-img/LogoDarkMode.png" : logo.src="./img/navbar-img/logo.png";
-    document.body.classList.contains('dark-mode') ? logo2.src="./img/navbar-img/LogoDarkMode.png" : logo2.src="./img/navbar-img/logo.png";
+    document.body.classList.contains('dark-mode') ? logo.src="./img/navbar-img/LogoDarkMode.png" : logo.src="./img/navbar-img/Logo.png";
+    document.body.classList.contains('dark-mode') ? logo2.src="./img/navbar-img/LogoDarkMode.png" : logo2.src="./img/navbar-img/Logo.png";
 });
 
 /* function of the submenu */
