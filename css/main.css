@@ -291,6 +291,7 @@ header .navbar .box-navbar .active {
   background-color: #ffffff;
   padding: 5px;
   color: #0F335E;
+  outline: none;
 }
 
 .home-box .home-box-menu .search-box .btn-search {
