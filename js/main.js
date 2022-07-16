@@ -3,12 +3,14 @@ const btnmenu = document.getElementById("btnmenu");
 const sidebar = document.getElementById("sidebar");
 const menu = document.getElementById("menu");
 const btndark = document.getElementById("btndark");
-const logo =document.getElementById("logo");
+const logo = document.getElementById("logo");
+const logo2 = document.getElementById("logo2");
 
 /* function of the darkMode */
 btndark.addEventListener("click",()=>{
     document.body.classList.toggle("dark-mode");
-    document.body.classList.contains('dark-mode') ? logo.src="./img/navbar-img/logoDarkMode.png" : logo.src="./img/navbar-img/logo.png";
+    document.body.classList.contains('dark-mode') ? logo.src="./img/navbar-img/LogoDarkMode.png" : logo.src="./img/navbar-img/logo.png";
+    document.body.classList.contains('dark-mode') ? logo2.src="./img/navbar-img/LogoDarkMode.png" : logo2.src="./img/navbar-img/logo.png";
 });
 
 /* function of the submenu */
