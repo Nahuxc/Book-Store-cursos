@@ -7,6 +7,7 @@ const btndark = document.getElementById("btndark")
 /* function of the darkMode */
 btndark.addEventListener("click",()=>{
     document.body.classList.toggle("dark-mode")
+    document.body.classList.contains('dark-mode') ? logo.src="../img/navbar-img/logoDarkMode.png" : logo.src="../img/navbar-img/logo.png";
 })
 
 /* function of the submenu */
