@@ -1,3 +1,4 @@
+/* box information course */
 .home-information-course{
     background-color: #0c8bca;
     border-radius: 20px;
@@ -9,6 +10,7 @@
     gap: 10px;
     position: relative;
     top: 35px;
+    box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
     .box-information{
         display: flex;
         justify-content: center;

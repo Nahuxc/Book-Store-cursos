@@ -2,6 +2,8 @@
 .navback {
   background-color: white;
   color: #222;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
   -webkit-transition: all 300ms;
   transition: all 300ms;
 }
@@ -129,6 +131,8 @@ header .navbar .box-navbar .submenu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
   /* button dark mode */
 }
 
@@ -294,6 +298,7 @@ header .navbar .box-navbar .active {
   border-radius: 30px;
   border: none;
   font-size: 15px;
+  font-weight: 600;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -314,6 +319,7 @@ header .navbar .box-navbar .active {
   width: 100%;
 }
 
+/* box information course */
 .home-information-course {
   background-color: #0c8bca;
   border-radius: 20px;
@@ -327,6 +333,8 @@ header .navbar .box-navbar .active {
   gap: 10px;
   position: relative;
   top: 35px;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
 }
 
 .home-information-course .box-information {
@@ -384,7 +392,7 @@ header .navbar .box-navbar .active {
 }
 
 body.dark-mode .box-courses {
-  background-color: #333;
+  background-color: #1c1a1a;
 }
 
 .box-courses h2 {
@@ -440,6 +448,12 @@ body.dark-mode .box-courses .p-style {
           box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
 }
 
+body.dark-mode .box-courses .box-courses-card .courses {
+  background-color: #333;
+  -webkit-box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
+          box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
+}
+
 .box-courses .box-courses-card .courses .courses-img img {
   width: 100%;
 }
@@ -456,6 +470,10 @@ body.dark-mode .box-courses .p-style {
 
 .box-courses .box-courses-card .courses .course-info p {
   color: rgba(149, 147, 147, 0.49);
+}
+
+body.dark-mode .box-courses .box-courses-card .courses .course-info p {
+  color: #e1dcdc;
 }
 
 .box-courses .box-courses-card .courses .course-titule {
@@ -476,6 +494,10 @@ body.dark-mode .box-courses .p-style {
   font-size: 20px;
   text-align: left;
   color: #222;
+}
+
+body.dark-mode .box-courses .box-courses-card .courses .course-titule h2 {
+  color: white;
 }
 
 .box-courses .box-courses-card .courses .course-titule p {
