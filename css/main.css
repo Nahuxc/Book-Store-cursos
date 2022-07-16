@@ -6,6 +6,11 @@
   transition: all 300ms;
 }
 
+body.dark-mode .navback {
+  background-color: #333;
+  color: #ffffff;
+}
+
 /* effect in the navbar scroll fixed */
 header {
   width: 100%;
@@ -55,14 +60,23 @@ header .navbar .box-navbar li .box-navbar-interfaz {
   text-decoration: none;
   color: #222;
   padding: 10px 15px;
+  border-radius: 30px;
   -webkit-transition: all 500ms;
   transition: all 500ms;
+}
+
+body.dark-mode header .navbar .box-navbar li .box-navbar-interfaz {
+  color: #ffff;
 }
 
 header .navbar .box-navbar li .box-navbar-interfaz:hover {
   background-color: #e1dada;
   border-radius: 30px;
   padding: 10px 15px;
+}
+
+body.dark-mode header .navbar .box-navbar li .box-navbar-interfaz:hover {
+  color: #000000;
 }
 
 header .navbar .box-navbar .btn-menu-box {
@@ -118,6 +132,11 @@ header .navbar .box-navbar .submenu {
   /* button dark mode */
 }
 
+body.dark-mode header .navbar .box-navbar .submenu {
+  background-color: #333;
+  color: #ffffff;
+}
+
 header .navbar .box-navbar .submenu li {
   background-color: #222;
   width: 100%;
@@ -128,6 +147,11 @@ header .navbar .box-navbar .submenu li {
   -webkit-transition: all 500ms;
   transition: all 500ms;
   cursor: pointer;
+}
+
+body.dark-mode header .navbar .box-navbar .submenu li {
+  background-color: #ffff;
+  color: #333;
 }
 
 header .navbar .box-navbar .submenu li:hover {
@@ -141,6 +165,10 @@ header .navbar .box-navbar .submenu li .submenu-interfaz {
   color: white;
 }
 
+body.dark-mode header .navbar .box-navbar .submenu li .submenu-interfaz {
+  color: #333;
+}
+
 header .navbar .box-navbar .submenu .btn-dark {
   padding: 5px 10px;
   border: none;
@@ -152,6 +180,11 @@ header .navbar .box-navbar .submenu .btn-dark {
   -webkit-transition: all 500ms;
   transition: all 500ms;
   cursor: pointer;
+}
+
+body.dark-mode header .navbar .box-navbar .submenu .btn-dark {
+  background-color: #ffffff;
+  color: #060606;
 }
 
 header .navbar .box-navbar .submenu .btn-dark:hover {
@@ -350,13 +383,25 @@ header .navbar .box-navbar .active {
           align-items: center;
 }
 
+body.dark-mode .box-courses {
+  background-color: #333;
+}
+
 .box-courses h2 {
   font-size: 40px;
   color: #222;
 }
 
+body.dark-mode .box-courses h2 {
+  color: #ffffff;
+}
+
 .box-courses .p-style {
   color: rgba(163, 163, 163, 0.561);
+}
+
+body.dark-mode .box-courses .p-style {
+  color: #e1dcdc;
 }
 
 .box-courses .box-courses-card {
@@ -497,6 +542,18 @@ body {
   position: relative;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+body.dark-mode {
+  background: url(../img/ilustraciones/FondoDarkMode.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  background-color: #333;
+  color: #ffff;
 }
 
 ::-webkit-scrollbar {

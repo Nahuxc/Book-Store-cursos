@@ -3,6 +3,10 @@
     background-color: white;
     color: #222;
     transition: all 300ms;
+    body.dark-mode &{
+        background-color: #333;
+        color: #ffffff;
+    }
 }
 
 /* effect in the navbar scroll fixed */
@@ -31,11 +35,18 @@ header{
                     text-decoration: none;
                     color: #222;
                     padding: 10px 15px;
+                    border-radius: 30px;
                     transition: all 500ms;
+                    body.dark-mode &{
+                        color: #ffff;
+                    }
                     &:hover{
                         background-color: rgb(225, 218, 218);
                         border-radius: 30px;
                         padding: 10px 15px;
+                        body.dark-mode &{
+                            color: #000000;
+                        }
                     }
                 }
             }
@@ -76,6 +87,10 @@ header{
                 padding: 20px 10px;
                 display: flex;
                 flex-direction: column;
+                body.dark-mode &{
+                    background-color: #333;
+                    color: #ffffff;
+                }
                 li{
                     background-color: #222;
                     width: 100%;
@@ -85,6 +100,10 @@ header{
                     font-size: 20px;
                     transition: all 500ms;
                     cursor: pointer;
+                    body.dark-mode &{
+                        background-color: #ffff;
+                        color: #333;
+                    }
                     &:hover{
                         background-color: #12A7D7;
                     }
@@ -93,6 +112,9 @@ header{
                         padding: 0px 25px;
                         font-size: 20px;
                         color: white;
+                        body.dark-mode &{
+                            color: #333;
+                        }
                     }
                 }
                 /* button dark mode */
@@ -106,6 +128,10 @@ header{
                     margin: 0 auto;
                     transition: all 500ms;
                     cursor: pointer;
+                    body.dark-mode &{
+                        background-color: #ffffff;
+                        color: #060606;
+                    }
                     &:hover{
                         background-color: #12A7D7;
                         color: white;
