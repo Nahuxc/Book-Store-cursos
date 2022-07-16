@@ -3,6 +3,7 @@ const btnmenu = document.getElementById("btnmenu")
 const sidebar = document.getElementById("sidebar")
 const menu = document.getElementById("menu")
 const btndark = document.getElementById("btndark")
+const logo =document.getElementById("logo")
 
 /* function of the darkMode */
 btndark.addEventListener("click",()=>{
