@@ -141,6 +141,29 @@ body.dark-mode header .navbar .box-navbar .submenu {
   color: #ffffff;
 }
 
+header .navbar .box-navbar .submenu button {
+  background-color: #222;
+  width: 100%;
+  border: none;
+  font-weight: 600;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+body.dark-mode header .navbar .box-navbar .submenu button {
+  background-color: #ffff;
+  color: #333;
+}
+
+header .navbar .box-navbar .submenu button:hover {
+  background-color: #12A7D7;
+}
+
 header .navbar .box-navbar .submenu li {
   background-color: #222;
   width: 100%;
@@ -176,7 +199,7 @@ body.dark-mode header .navbar .box-navbar .submenu li .submenu-interfaz {
 header .navbar .box-navbar .submenu .btn-dark {
   padding: 5px 10px;
   border: none;
-  background-color: #e7e4e4;
+  background-color: #363535;
   border-radius: 20px;
   margin-right: 20px;
   width: 30%;
