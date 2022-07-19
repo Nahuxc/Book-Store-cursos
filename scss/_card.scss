@@ -1,6 +1,6 @@
 .box-courses{
     background-color: white;
-    padding: 90px 0px;
+    padding: 70px 0px 0px 0px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -23,19 +23,19 @@
     }
     .box-courses-card{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 50px auto;
+        padding: 20px;
         .courses{
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             background-color: white;
-            width: 23%;
             padding: 15px;
+            margin: 15px 30px;
             border-radius: 20px;
-            margin: 0 auto;
             box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
             body.dark-mode &{
                 background-color: #333;
