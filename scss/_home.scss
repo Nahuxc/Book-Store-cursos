@@ -34,15 +34,14 @@
             }
         }
         /* inputs search - home */
-        .box-search{
+        .home-box_search{
             margin: 20px auto;
             width: 50%;
-            .search{
+            .content-search{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background-color: #ffffff;
-                width: 100%;
                 padding: 10px 20px;
                 border-radius: 20px;
                 .icon{
@@ -52,7 +51,11 @@
                         margin: 0px 10px 0px 0px;
                     }
                 }
-                .search{
+                .search-input{
+                    background-color: #ffffff;
+                    width: 100%;
+                    padding: 10px 20px;
+                    border-radius: 20px;
                     border: none;
                     background-color: #ffffff;
                     padding: 5px;

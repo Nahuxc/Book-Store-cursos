@@ -15,7 +15,7 @@
             color: #ffffff;
         }
     }
-    .p-style{
+    .box-courses_p-style{
         color: hsla(0, 0%, 64%, 0.561);
         body.dark-mode &{
             color: #e1dcdc;
@@ -27,7 +27,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        .courses{
+        .courses-card{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -41,12 +41,12 @@
                 background-color: #333;
                 box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
             }
-            .courses-img{
+            .courses-card_img{
                 img{
                     width: 100%;
                 }
             }
-            .course-info{
+            .courses-card_info{
                 display: flex;
                 justify-content: space-between;
                 width: 90%;
@@ -57,7 +57,7 @@
                     }
                 }
             }
-            .course-titule{
+            .courses-card_titule{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -76,14 +76,14 @@
                     text-align: left;
                 }
             }
-            .course-hours{
+            .courses-card_hours{
                 display: flex;
                 justify-content: space-between;
                 p{
                     margin: 0px 20px;
                 }
             }
-            .btn-buy{
+            .courses-card-btn_buy{
                 display: flex;
                 justify-content: center;
                 align-items: center;
