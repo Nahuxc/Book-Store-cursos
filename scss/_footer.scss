@@ -28,6 +28,12 @@
         text-align: center;
         h2{
             margin-bottom: 15px;
+            span{
+                color: #12A7D7;
+                body.dark-mode &{
+                    color: #1cc1f7;;
+                }
+            }
         }
         span{
             margin-bottom: 10px;
@@ -52,6 +58,12 @@
         text-align: center;
         h2{
             margin-bottom: 15px;
+            span{
+                color: #12A7D7;
+                body.dark-mode &{
+                    color: #1cc1f7;;
+                }
+            }
         }
         span{
             margin-bottom: 10px;
@@ -60,6 +72,34 @@
                 color: #606060;
                 body.dark-mode &{
                     color: #d9d7d4;
+                }
+            }
+            .instagram{
+                color: #606060;
+                transition: all 250ms;
+                &:hover{
+                    color: #ff0062;
+                }
+            }
+            .facebook{
+                color: #606060;
+                transition: all 250ms;
+                &:hover{
+                    color: #008cff;
+                }
+            }
+            .github{
+                color: #606060;
+                transition: all 250ms;
+                &:hover{
+                    color: #ff0000;
+                }
+            }
+            .twitter{
+                color: #606060;
+                transition: all 250ms;
+                &:hover{
+                    color: #4be6e6;
                 }
             }
         }
@@ -79,7 +119,7 @@
         background-color: #353535;
         height: 5px;
         body.dark-mode &{
-           background-color: #FDF8EE;
+           background-color: #12A7D7;;
         }
     }
     p {
@@ -87,7 +127,7 @@
         color: #353535;
         margin-top: 20px;
         body.dark-mode &{
-            color: #d9d7d4;
+            color: #e7f3f7;;
         }
     }
 }

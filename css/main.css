@@ -559,14 +559,28 @@ body.dark-mode .box-courses .box-courses-card .courses-card .coursesText {
       -ms-flex-align: center;
           align-items: center;
   border: none;
-  background-color: #0c8bca;
-  color: white;
+  background-color: #2198d3;
+  color: #ffffff;
   border-radius: 15px;
   padding: 10px 15px;
   margin: 15px;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.box-courses .box-courses-card .courses-card .btnbuy:hover {
+  background-color: #02a9fc;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.358);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.358);
+}
+
+body.dark-mode .box-courses .box-courses-card .courses-card .btnbuy:hover {
+  background-color: #02a9fc;
+  -webkit-box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
+          box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
 }
 
 .box-premiumInfo {
@@ -755,6 +769,14 @@ body.dark-mode .footer .box-footer-information p {
   margin-bottom: 15px;
 }
 
+.footer .box-footer-contact h2 span {
+  color: #12A7D7;
+}
+
+body.dark-mode .footer .box-footer-contact h2 span {
+  color: #1cc1f7;
+}
+
 .footer .box-footer-contact span {
   margin-bottom: 10px;
   color: #606060;
@@ -794,6 +816,14 @@ body.dark-mode .footer .box-footer-contact span a {
   margin-bottom: 15px;
 }
 
+.footer .box-footer-socialMedia h2 span {
+  color: #12A7D7;
+}
+
+body.dark-mode .footer .box-footer-socialMedia h2 span {
+  color: #1cc1f7;
+}
+
 .footer .box-footer-socialMedia span {
   margin-bottom: 10px;
 }
@@ -805,6 +835,46 @@ body.dark-mode .footer .box-footer-contact span a {
 
 body.dark-mode .footer .box-footer-socialMedia span a {
   color: #d9d7d4;
+}
+
+.footer .box-footer-socialMedia span .instagram {
+  color: #606060;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.footer .box-footer-socialMedia span .instagram:hover {
+  color: #ff0062;
+}
+
+.footer .box-footer-socialMedia span .facebook {
+  color: #606060;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.footer .box-footer-socialMedia span .facebook:hover {
+  color: #008cff;
+}
+
+.footer .box-footer-socialMedia span .github {
+  color: #606060;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.footer .box-footer-socialMedia span .github:hover {
+  color: #ff0000;
+}
+
+.footer .box-footer-socialMedia span .twitter {
+  color: #606060;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.footer .box-footer-socialMedia span .twitter:hover {
+  color: #4be6e6;
 }
 
 .autor-copyright {
@@ -825,7 +895,7 @@ body.dark-mode .autor-copyright {
 }
 
 body.dark-mode .autor-copyright .bar {
-  background-color: #FDF8EE;
+  background-color: #12A7D7;
 }
 
 .autor-copyright p {
@@ -835,7 +905,7 @@ body.dark-mode .autor-copyright .bar {
 }
 
 body.dark-mode .autor-copyright p {
-  color: #d9d7d4;
+  color: #e7f3f7;
 }
 
 * {
