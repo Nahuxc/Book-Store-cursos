@@ -6,7 +6,7 @@
         "price": 10800,
         "hours":"15hr 25min",
         "video":"13 video",
-        "img": "https://www.comunicare.es/wp-content/uploads/2021/02/marketing-online-openred-1-2.png"
+        "img": "./img/ilustraciones/ilustracionmarketing.png"
     },
     {
         "id":2,
