@@ -15,7 +15,7 @@
         "price": 11200,
         "hours":"18hr 30min",
         "video":"18 video",
-        "img": "https://miro.medium.com/max/800/0*ARfJwEFETx0niQQU"
+        "img": "./img/ilustraciones/figmacourse.png"
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "price": 11500,
         "hours":"14hr 30min",
         "video":"15 video",
-        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/adobe-photoshop-cs6-logo.png"
+        "img": "./img/ilustraciones/adobecourse.png"
     },
     {
         "id":4,
@@ -33,7 +33,7 @@
         "price": 13000,
         "hours":"22hr 30min",
         "video":"23 video",
-        "img": "./img/infoIcons/CLogo.png"
+        "img": "./img/ilustraciones/CLogo.png"
     },
     {
         "id":5,
@@ -51,7 +51,7 @@
         "price": 15200,
         "hours":"22hr 30min",
         "video":"21 video",
-        "img": "https://www.smartatinnovation.com/assets/images/c++.png"
+        "img": "./img/ilustraciones/c.png"
     },
     {
         "id":7,
@@ -60,7 +60,7 @@
         "price": 11200,
         "hours":"15hr 10min",
         "video":"16 video",
-        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-excel-2013-logo.png"
+        "img": "./img/ilustraciones/excelcourse.png"
     },
     {
         "id":8,
@@ -69,7 +69,7 @@
         "price": 19250,
         "hours":"22hr 30min",
         "video":"21 video",
-        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/mysql-5-logo.png"
+        "img": "./img/ilustraciones/mysql.png"
     },
     {
         "id":9,
@@ -78,7 +78,7 @@
         "price": 9200,
         "hours":"11hr 30min",
         "video":"12 video",
-        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-word-2013-logo-logo.png"
+        "img": "./img/ilustraciones/wordcourse.png"
     },
     {
         "id":10,
@@ -87,7 +87,7 @@
         "price": 18200,
         "hours":"18hr 30min",
         "video":"13 video",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+        "img": "./img/ilustraciones/reactcourse.png"
     },
     {
         "id":11,
@@ -96,7 +96,7 @@
         "price": 15200,
         "hours":"8hr 45min",
         "video":"9 video",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Microsoft_PowerPoint_2013-2019_logo.svg/2086px-Microsoft_PowerPoint_2013-2019_logo.svg.png"
+        "img": "./img/ilustraciones/powerpoint.png"
     },
     {
         "id":12,
