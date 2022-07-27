@@ -1,12 +1,12 @@
 [
     {
         "id":1,
-        "category": "UI/UX Design",
-        "name": "UI/UX Design for Beginners",
+        "category": "Marketing",
+        "name": "Growth Marketing",
         "price": 10800,
         "hours":"15hr 25min",
         "video":"13 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "https://www.comunicare.es/wp-content/uploads/2021/02/marketing-online-openred-1-2.png"
     },
     {
         "id":2,
@@ -15,7 +15,7 @@
         "price": 11200,
         "hours":"18hr 30min",
         "video":"18 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "https://miro.medium.com/max/800/0*ARfJwEFETx0niQQU"
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "price": 11500,
         "hours":"14hr 30min",
         "video":"15 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/adobe-photoshop-cs6-logo.png"
     },
     {
         "id":4,
@@ -33,7 +33,7 @@
         "price": 13000,
         "hours":"22hr 30min",
         "video":"23 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "./img/infoIcons/CLogo.png"
     },
     {
         "id":5,
@@ -42,7 +42,7 @@
         "price": 12200,
         "hours":"22hr 30min",
         "video":"28 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "https://blog.boot.dev/img/800/HTML-vs-CSS-vs-JavaScript-min.webp"
     },
     {
         "id":6,
@@ -51,6 +51,24 @@
         "price": 15200,
         "hours":"22hr 30min",
         "video":"21 video",
-        "img": "./img/person-course/personCourse1.png"
+        "img": "https://www.smartatinnovation.com/assets/images/c++.png"
+    },
+    {
+        "id":7,
+        "category": "Data",
+        "name": "Excel",
+        "price": 15200,
+        "hours":"22hr 30min",
+        "video":"21 video",
+        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-excel-2013-logo.png"
+    },
+    {
+        "id":8,
+        "category": "Data",
+        "name": "mySQL",
+        "price": 15200,
+        "hours":"22hr 30min",
+        "video":"21 video",
+        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/mysql-5-logo.png"
     }
 ]

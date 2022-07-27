@@ -75,7 +75,7 @@
             <!-- box contents information on what can be obtained -->
             <div class="box-information">
                 <div class="box-img-information">
-                    <img src="./img/info-icons/icon1.png" alt="icon-skills">
+                    <img src="./img/infoIcons/icon1.png" alt="icon-skills">
                 </div>
                 <div class="box-information-text">
                     <h2>Learn The Lastest Skills</h2>
@@ -85,7 +85,7 @@
             <!-- box contents information on what can be obtained -->
             <div class="box-information">
                 <div class="box-img-information">
-                    <img src="./img/info-icons/icon2.png" alt="icon-skills">
+                    <img src="./img/infoIcons/icon2.png" alt="icon-skills">
                 </div>
                 <div class="box-information-text">
                     <h2>Get Ready For a Career</h2>
@@ -95,7 +95,7 @@
             <!-- box contents information on what can be obtained -->
             <div class="box-information">
                 <div class="box-img-information">
-                    <img src="./img/info-icons/icon3.png" alt="icon-skills">
+                    <img src="./img/infoIcons/icon3.png" alt="icon-skills">
                 </div>
                 <div class="box-information-text">
                     <h2>Earn a Certificate</h2>
@@ -107,32 +107,8 @@
         <section class="box-courses">
                 <h2>Our Available Courses</h2>
                 <p class="box-courses_p-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nisi.</p>
-                <!-- Card Course -->
-                <!-- <div class="box-courses-card">
-                    <div class="courses-card">
-                        <div class="courses-card_img">
-                            <img src="./img/person-course/personCourse1.png" alt="">
-                        </div>
-                        <div class="courses-card_info">
-                            <p>UI/UX Design</p>
-                            <img src="./img/info-icons/stars.png" alt="">
-                        </div>
-                        <div class="courses-card_titule">
-                            <h2>UI/UX Design for Beginners</h2>
-                            <p>$98</p>
-                        </div>
-                        <div class="courses-card_hours">
-                            <p><i class="fa-solid fa-clock"></i> 22hr 30min</p>
-                            <p><i class="fa-solid fa-video"></i> 34 Courses</p>
-                        </div>
-                        <div class="courses-card-btn_buy">
-                            <button>Buy Course</button>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="box-courses-card" id="card">
-
-                </div>
+                <!-- Create Card Course -->
+                <div class="box-courses-card" id="card"></div>
         </section>
     </main>
     <footer>
@@ -172,13 +148,12 @@
     <!-- template card -->
     <template id="templateCard">
         <div class="courses-card">
-            <img class="courses-img-card" src="" alt="">
-            <p class="courses-text-card"></p>
-            <img class="courses-img2-card" src="./img/info-icons/stars.png" alt="">
-            <h2 class="courses-tituleh2-card">UI/UX Design for Beginners</h2>
-            <p class="courses-text-card">$98</p>
-            <p class="courses-text-card"><i class="fa-solid fa-clock"></i> 22hr 30min</p>
-            <p class="courses-text-card"><i class="fa-solid fa-video"></i> 34 Courses</p>
+            <img class="coursesImg" src="" alt="img-course">
+            <p class="coursesTextCategory"></p>
+            <h2 class="coursesTituleH2">UI/UX Design for Beginners</h2>
+            <p class="coursesText">$98</p>
+            <p class="coursesTextClock">22hr 30min</p>
+            <p class="coursesTextVideo">34 Courses</p>
             <button class="btnbuy">Buy Course</button>
         </div>
     </template>
