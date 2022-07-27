@@ -6,7 +6,7 @@
         "price": 10800,
         "hours":"15hr 25min",
         "video":"13 video",
-        "imgCourse": "./img//personCourse1.png"
+        "img": "./img/person-course/personCourse1.png"
     },
     {
         "id":2,
@@ -24,6 +24,33 @@
         "price": 11500,
         "hours":"14hr 30min",
         "video":"15 video",
+        "img": "./img/person-course/personCourse1.png"
+    },
+    {
+        "id":4,
+        "category": "Programacion",
+        "name": "C#",
+        "price": 13000,
+        "hours":"22hr 30min",
+        "video":"23 video",
+        "img": "./img/person-course/personCourse1.png"
+    },
+    {
+        "id":5,
+        "category": "Programacion",
+        "name": "Desarrollo Web",
+        "price": 12200,
+        "hours":"22hr 30min",
+        "video":"28 video",
+        "img": "./img/person-course/personCourse1.png"
+    },
+    {
+        "id":6,
+        "category": "Programacion",
+        "name": "C++",
+        "price": 15200,
+        "hours":"22hr 30min",
+        "video":"21 video",
         "img": "./img/person-course/personCourse1.png"
     }
 ]
