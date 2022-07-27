@@ -5,12 +5,12 @@ const menu = document.getElementById("menu");
 const btndark = document.getElementById("btndark");
 const logo = document.getElementById("logo");
 const logo2 = document.getElementById("logo2");
-const cardTemplate = document.getElementById("templateCard").content
-const fragment = document.createDocumentFragment()
+const cardTemplate = document.getElementById("templateCard").content;
+const fragment = document.createDocumentFragment();
 
 /* DOM objects loaded */
 document.addEventListener("DOMContentLoaded", ()=>{
-    dataFetch()
+    dataFetch();
 })
 
 /* fetch */
@@ -35,10 +35,11 @@ const createCard = data =>{
         cardTemplate.querySelector('.coursesTextClock').innerHTML = `<i class="fa-solid fa-clock"></i> ` + prod.hours;
         cardTemplate.querySelector('.coursesTextVideo').innerHTML = `<i class="fa-solid fa-video"></i> ` + prod.video;
         cardTemplate.querySelector('.btnbuy').dataset.id = prod.id;
+
         const clone = cardTemplate.cloneNode(true);
         fragment.appendChild(clone);
     });
-    card.appendChild(fragment)
+    card.appendChild(fragment);
 
 }
 

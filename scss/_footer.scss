@@ -4,6 +4,7 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
     gap: 50px;
     padding: 20px 100px;
+    box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
     body.dark-mode &{
         background-color: #353535;
     }

@@ -420,6 +420,8 @@ header .navbar .box-navbar .active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
 }
 
 body.dark-mode .box-courses {
@@ -501,7 +503,7 @@ body.dark-mode .box-courses .box-courses-card .courses-card {
   width: 90%;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: rgba(149, 147, 147, 0.49);
+  color: #8A8A8A;
 }
 
 body.dark-mode .box-courses .box-courses-card .courses-card .coursesTextCategory {
@@ -563,6 +565,133 @@ body.dark-mode .box-courses .box-courses-card .courses-card .coursesTituleH2 {
   cursor: pointer;
 }
 
+.box-premiumInfo {
+  width: 100%;
+  padding: 50px;
+  max-height: 900px;
+  background-color: rgba(240, 248, 255, 0.122);
+}
+
+.box-premiumInfo .premiumInfo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(15rem, 3fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
+  padding: 30px 50px;
+  gap: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-img img {
+  width: 50%;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts h2 {
+  font-size: 45px;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts h2 span {
+  color: #12A7D7;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxHeart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxHeart img {
+  background-color: rgba(16, 117, 249, 0.536);
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxHeart .text-heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxHeart .text-heart p {
+  color: #8A8A8A;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxJig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxJig img {
+  background-color: rgba(16, 117, 249, 0.536);
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxJig .text-jig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.box-premiumInfo .premiumInfo .premiumInfo-Texts .premiumInfo-Texts-boxJig .text-jig p {
+  color: #8A8A8A;
+}
+
 .footer {
   background-color: #FDF8EE;
   display: -ms-grid;
@@ -571,6 +700,8 @@ body.dark-mode .box-courses .box-courses-card .courses-card .coursesTituleH2 {
       grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
   gap: 50px;
   padding: 20px 100px;
+  -webkit-box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+          box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
 }
 
 body.dark-mode .footer {
