@@ -3,27 +3,27 @@
         "id":1,
         "category": "UI/UX Design",
         "name": "UI/UX Design for Beginners",
-        "price": 1800,
-        "hours":"18hr 25min",
-        "video":"18 Courses",
-        "img": "./img/person-course/personCourse1.png"
+        "price": 10800,
+        "hours":"15hr 25min",
+        "video":"13 video",
+        "imgCourse": "./img//personCourse1.png"
     },
     {
         "id":2,
-        "category": "Programacion",
-        "name": "C#",
-        "price": 2200,
-        "hours":"22hr 30min",
-        "video":"25 Courses",
+        "category": "UI/UX Design",
+        "name": "Figma",
+        "price": 11200,
+        "hours":"18hr 30min",
+        "video":"18 video",
         "img": "./img/person-course/personCourse1.png"
     },
     {
         "id":3,
         "category": "UI/UX Design",
-        "name": "UI/UX Design for Beginners",
-        "price": 1500,
+        "name": "Adobe Photos",
+        "price": 11500,
         "hours":"14hr 30min",
-        "video":"13 Courses",
+        "video":"15 video",
         "img": "./img/person-course/personCourse1.png"
     }
 ]
