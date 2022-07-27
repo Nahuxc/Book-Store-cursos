@@ -532,6 +532,10 @@ body.dark-mode .box-courses .box-courses-card .courses-card .coursesTituleH2 {
   text-align: left;
 }
 
+body.dark-mode .box-courses .box-courses-card .courses-card .coursesText {
+  color: #36b0ed;
+}
+
 .box-courses .box-courses-card .courses-card .coursesTextClock {
   width: 90%;
   text-align: left;

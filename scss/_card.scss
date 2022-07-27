@@ -73,6 +73,9 @@
                 width: 90%;
                 margin-bottom: 5px;
                 text-align: left;
+                body.dark-mode &{
+                    color: #36b0ed;
+                }
             }
             .coursesTextClock{
                 width: 90%;
