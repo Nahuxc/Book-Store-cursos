@@ -42,7 +42,7 @@
         "price": 12200,
         "hours":"22hr 30min",
         "video":"28 video",
-        "img": "https://www.deartic.com/wp-content/uploads/2020/06/html-css-js-logo.png"
+        "img": "./img/ilustraciones/desarrolloWeb.png"
     },
     {
         "id":6,
