@@ -112,12 +112,17 @@ body.dark-mode header .navbar .box-navbar .submenu button {
   background-color: white;
   color: #333;
 }
-header .navbar .box-navbar .submenu button:hover {
-  background-color: #12A7D7;
+body.dark-mode header .navbar .box-navbar .submenu button:hover {
+  background-color: #41a3f4;
+  color: white;
 }
-header .navbar .box-navbar .submenu li {
+header .navbar .box-navbar .submenu button:hover {
+  background-color: #0061fe;
+}
+header .navbar .box-navbar .submenu .submenu-interface {
   background-color: #222;
   width: 100%;
+  text-decoration: none;
   margin: 10px 0px 20px 0px;
   padding: 10px;
   color: white;
@@ -125,21 +130,16 @@ header .navbar .box-navbar .submenu li {
   transition: all 500ms;
   cursor: pointer;
 }
-body.dark-mode header .navbar .box-navbar .submenu li {
+body.dark-mode header .navbar .box-navbar .submenu .submenu-interface {
   background-color: white;
   color: #333;
 }
-header .navbar .box-navbar .submenu li:hover {
-  background-color: #12A7D7;
-}
-header .navbar .box-navbar .submenu li .submenu-interface {
-  text-decoration: none;
-  padding: 0px 25px;
-  font-size: 20px;
+body.dark-mode header .navbar .box-navbar .submenu .submenu-interface:hover {
+  background-color: #41a3f4;
   color: white;
 }
-body.dark-mode header .navbar .box-navbar .submenu li .submenu-interface {
-  color: #333;
+header .navbar .box-navbar .submenu .submenu-interface:hover {
+  background-color: #0061fe;
 }
 header .navbar .box-navbar .submenu .btn-dark {
   padding: 5px 10px;
@@ -156,8 +156,12 @@ body.dark-mode header .navbar .box-navbar .submenu .btn-dark {
   background-color: #ffffff;
   color: #060606;
 }
+body.dark-mode header .navbar .box-navbar .submenu .btn-dark:hover {
+  background-color: #41a3f4;
+  color: white;
+}
 header .navbar .box-navbar .submenu .btn-dark:hover {
-  background-color: #12A7D7;
+  background-color: #0061fe;
   color: white;
 }
 header .navbar .box-navbar .submenu .btn-dark i {

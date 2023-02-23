@@ -5,13 +5,13 @@
 @import "premiumInfo";
 @import "footer";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     background-color: #cccaca;
     color: black;
@@ -25,7 +25,8 @@ body{
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     transition: all 500ms;
-    &.dark-mode{
+
+    &.dark-mode {
         background: url(../img/ilustraciones/FondoDarkMode.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -36,15 +37,15 @@ body{
     }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 8px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background-color: rgb(233, 231, 227);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #0b80bf;
     padding: 10px;
 }

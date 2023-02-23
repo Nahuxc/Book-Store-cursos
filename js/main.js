@@ -9,12 +9,12 @@ const cardTemplate = document.getElementById("templateCard").content;
 const fragment = document.createDocumentFragment();
 
 /* DOM objects loaded */
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", () => {
     dataFetch();
 })
 
 /* fetch */
-const dataFetch = async()=>{
+const dataFetch = async () => {
     try {
         /* API */
         const res = await fetch('api.json');
@@ -26,12 +26,12 @@ const dataFetch = async()=>{
 }
 
 /* create card product */
-const createCard = data =>{
+const createCard = data => {
     data.forEach(prod => {
         cardTemplate.querySelector('.coursesImg').setAttribute("src", prod.img);
         cardTemplate.querySelector('.coursesTextCategory').textContent = prod.category;
         cardTemplate.querySelector('.coursesTituleH2').textContent = prod.name;
-        cardTemplate.querySelector('.coursesText').textContent = `$ `+ prod.price;
+        cardTemplate.querySelector('.coursesText').textContent = `$ ` + prod.price;
         cardTemplate.querySelector('.coursesTextClock').innerHTML = `<i class="fa-solid fa-clock"></i> ` + prod.hours;
         cardTemplate.querySelector('.coursesTextVideo').innerHTML = `<i class="fa-solid fa-video"></i> ` + prod.video;
         cardTemplate.querySelector('.btnbuy').dataset.id = prod.id;
@@ -44,20 +44,20 @@ const createCard = data =>{
 }
 
 /* function of the darkMode */
-btndark.addEventListener("click",()=>{
+btndark.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
-    document.body.classList.contains('dark-mode') ? logo.src="./img/navbar-img/LogoDarkMode.png" : logo.src="./img/navbar-img/Logo.png";
-    document.body.classList.contains('dark-mode') ? logo2.src="./img/navbar-img/LogoDarkMode.png" : logo2.src="./img/navbar-img/Logo.png";
+    document.body.classList.contains('dark-mode') ? logo.src = "./img/navbar-img/LogoDarkMode.png" : logo.src = "./img/navbar-img/Logo.png";
+    document.body.classList.contains('dark-mode') ? logo2.src = "./img/navbar-img/LogoDarkMode.png" : logo2.src = "./img/navbar-img/Logo.png";
 });
 
 /* function of the submenu */
-btnmenu.addEventListener("click", ()=>{
+btnmenu.addEventListener("click", () => {
     btnmenu.classList.toggle("deploy");
     sidebar.classList.toggle("active");
 });
 
 /* scroll NavBar Effect */
-window.addEventListener("scroll", ()=>{
+window.addEventListener("scroll", () => {
     const header = document.getElementById("header");
-    header.classList.toggle("navback", window.scrollY>0);
+    header.classList.toggle("navback", window.scrollY > 0);
 });

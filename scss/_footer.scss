@@ -1,104 +1,133 @@
-.footer{
+.footer {
     background-color: #FDF8EE;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
     gap: 50px;
     padding: 20px 100px;
     box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
-    body.dark-mode &{
+
+    body.dark-mode & {
         background-color: #353535;
     }
-    .box-footer-information{
+
+    .box-footer-information {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 20px;
-        p{
+
+        p {
             color: #606060;
-            body.dark-mode &{
+
+            body.dark-mode & {
                 color: #d9d7d4;
             }
         }
     }
-    .box-footer-contact{
+
+    .box-footer-contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        h2{
+
+        h2 {
             margin-bottom: 15px;
-            span{
+
+            span {
                 color: #12A7D7;
-                body.dark-mode &{
-                    color: #1cc1f7;;
+
+                body.dark-mode & {
+                    color: #1cc1f7;
+                    ;
                 }
             }
         }
-        span{
+
+        span {
             margin-bottom: 10px;
             color: #606060;
-            body.dark-mode &{
+
+            body.dark-mode & {
                 color: #d9d7d4;
             }
-            a{
+
+            a {
                 text-decoration: none;
                 color: #606060;
-                body.dark-mode &{
+
+                body.dark-mode & {
                     color: #d9d7d4;
                 }
             }
         }
     }
-    .box-footer-socialMedia{
+
+    .box-footer-socialMedia {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        h2{
+
+        h2 {
             margin-bottom: 15px;
-            span{
+
+            span {
                 color: #12A7D7;
-                body.dark-mode &{
-                    color: #1cc1f7;;
+
+                body.dark-mode & {
+                    color: #1cc1f7;
+                    ;
                 }
             }
         }
-        span{
+
+        span {
             margin-bottom: 10px;
-            a{
+
+            a {
                 text-decoration: none;
                 color: #606060;
-                body.dark-mode &{
+
+                body.dark-mode & {
                     color: #d9d7d4;
                 }
             }
-            .instagram{
+
+            .instagram {
                 color: #606060;
                 transition: all 250ms;
-                &:hover{
+
+                &:hover {
                     color: #ff0062;
                 }
             }
-            .facebook{
+
+            .facebook {
                 color: #606060;
                 transition: all 250ms;
-                &:hover{
+
+                &:hover {
                     color: #008cff;
                 }
             }
-            .github{
+
+            .github {
                 color: #606060;
                 transition: all 250ms;
-                &:hover{
+
+                &:hover {
                     color: #ff0000;
                 }
             }
-            .twitter{
+
+            .twitter {
                 color: #606060;
                 transition: all 250ms;
-                &:hover{
+
+                &:hover {
                     color: #4be6e6;
                 }
             }
@@ -106,28 +135,35 @@
     }
 }
 
-.autor-copyright{
+.autor-copyright {
     background-color: #FDF8EE;
     padding: 20px;
     text-align: center;
-    body.dark-mode &{
+
+    body.dark-mode & {
         background-color: #353535;
     }
-    .bar{
+
+    .bar {
         width: 90%;
         margin: 10px auto;
         background-color: #353535;
         height: 5px;
-        body.dark-mode &{
-           background-color: #12A7D7;;
+
+        body.dark-mode & {
+            background-color: #12A7D7;
+            ;
         }
     }
+
     p {
         font-size: 20px;
         color: #353535;
         margin-top: 20px;
-        body.dark-mode &{
-            color: #e7f3f7;;
+
+        body.dark-mode & {
+            color: #e7f3f7;
+            ;
         }
     }
 }

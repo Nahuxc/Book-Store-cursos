@@ -1,5 +1,5 @@
 /* box information course */
-.home-information-course{
+.home-information-course {
     background-color: #0c8bca;
     border-radius: 20px;
     margin: 0 auto;
@@ -11,26 +11,31 @@
     position: relative;
     top: 35px;
     box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
-    .box-information{
+
+    .box-information {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 10px;
         color: #FFFFFF;
-        .box-img-information{
+
+        .box-img-information {
             background-color: hsla(0, 0%, 100%, 0.644);
             padding: 15px;
             border-radius: 20px;
             margin-right: 15px;
         }
-        .box-information-text{
+
+        .box-information-text {
             display: flex;
             flex-direction: column;
-            h2{
+
+            h2 {
                 font-size: 25px;
                 color: #FFFFFF;
             }
-            p{
+
+            p {
                 font-size: 15px;
                 color: hsla(0, 0%, 100%, 0.653);
             }

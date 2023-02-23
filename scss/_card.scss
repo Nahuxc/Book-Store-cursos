@@ -1,4 +1,4 @@
-.box-courses{
+.box-courses {
     background-color: white;
     padding: 70px 0px 0px 0px;
     width: 100%;
@@ -6,29 +6,36 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
-    body.dark-mode &{
+
+    body.dark-mode & {
         background-color: #1c1a1a;
     }
-    h2{
+
+    h2 {
         font-size: 40px;
-        color:#222;
-        body.dark-mode &{
+        color: #222;
+
+        body.dark-mode & {
             color: #ffffff;
         }
     }
-    .box-courses_p-style{
+
+    .box-courses_p-style {
         color: hsla(0, 0%, 64%, 0.561);
-        body.dark-mode &{
+
+        body.dark-mode & {
             color: #e1dcdc;
         }
     }
-    .box-courses-card{
+
+    .box-courses-card {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 20px;
-        .courses-card{
+
+        .courses-card {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -38,56 +45,67 @@
             margin: 15px 30px;
             border-radius: 20px;
             box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
-            body.dark-mode &{
+
+            body.dark-mode & {
                 background-color: #333;
                 box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
             }
-            .coursesImg{
+
+            .coursesImg {
                 width: 300px;
                 height: 250px;
             }
-            .coursesTextCategory{
+
+            .coursesTextCategory {
                 display: flex;
                 justify-content: space-between;
                 width: 90%;
                 margin-top: 5px;
                 margin-bottom: 5px;
                 color: #8A8A8A;
-                body.dark-mode &{
+
+                body.dark-mode & {
                     color: #e1dcdc;
                 }
             }
-            .coursesTituleH2{
+
+            .coursesTituleH2 {
                 display: flex;
                 width: 90%;
                 font-size: 30px;
                 text-align: center;
                 color: #222;
-                body.dark-mode &{
+
+                body.dark-mode & {
                     color: white;
                 }
             }
-            .coursesText{
+
+            .coursesText {
                 color: #0c8bca;
                 font-size: 20px;
                 width: 90%;
                 margin-bottom: 5px;
                 text-align: left;
-                body.dark-mode &{
+
+                body.dark-mode & {
                     color: #36b0ed;
                 }
             }
-            .coursesTextClock{
+
+            .coursesTextClock {
                 width: 90%;
                 text-align: left;
                 margin: 0px 20px;
             }
-            .coursesTextVideo{
+
+            .coursesTextVideo {
                 width: 90%;
                 text-align: left;
                 margin: 0px 20px;
             }
-            .btnbuy{
+
+            .btnbuy {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -101,10 +119,12 @@
                 font-weight: 600;
                 cursor: pointer;
                 transition: all 500ms;
-                &:hover{
+
+                &:hover {
                     background-color: #02a9fc;
                     box-shadow: 0 0 5px rgba(0, 0, 0, 0.358);
-                    body.dark-mode &{
+
+                    body.dark-mode & {
                         background-color: #02a9fc;
                         box-shadow: 0 0 5px rgba(250, 250, 250, 0.358);
                     }
